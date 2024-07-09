@@ -1,0 +1,70 @@
+@font-face {
+    font-family: MyWebFont;
+    font-style: normal;
+    font-weight: 500;
+    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-500.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: italic;
+    font-weight: 500;
+    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-500Italic.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: normal;
+    font-weight: 700;
+    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-700.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: italic;
+    font-weight: 700;
+    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-700Italic.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: normal;
+    font-weight: 900;
+    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-900.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: italic;
+    font-weight: 900;
+    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-900Italic.ttf);
+}
+
+.h1-style{
+    color: #464866;
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid #d8c3a5;
+    max-width: 70%;
+    font-size: 4em;
+}
+#base-style{
+    font-family: MyWebFont, serif;
+    padding-top: 20px;
+    background: #eae7dc;
+    font-size: 18px;
+    margin: auto;
+    width: 90%;
+    color: #374785;
+}
+
+@media screen and (width<600px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+.about {
+    width: 60vw;
+    /* Берет ширину от главного тега */
+}
