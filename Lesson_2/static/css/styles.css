@@ -2,42 +2,42 @@
     font-family: MyWebFont;
     font-style: normal;
     font-weight: 500;
-    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-500.ttf);
+    src: url(/Lesson_2/static/fonts/MuseoSansCyrl-500.ttf);
 }
 
 @font-face {
     font-family: MyWebFont;
     font-style: italic;
     font-weight: 500;
-    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-500Italic.ttf);
+    src: url(/Lesson_2/static/fonts/MuseoSansCyrl-500Italic.ttf);
 }
 
 @font-face {
     font-family: MyWebFont;
     font-style: normal;
     font-weight: 700;
-    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-700.ttf);
+    src: url(/Lesson_2/static/fonts/MuseoSansCyrl-700.ttf);
 }
 
 @font-face {
     font-family: MyWebFont;
     font-style: italic;
     font-weight: 700;
-    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-700Italic.ttf);
+    src: url(/Lesson_2/static/fonts/MuseoSansCyrl-700Italic.ttf);
 }
 
 @font-face {
     font-family: MyWebFont;
     font-style: normal;
     font-weight: 900;
-    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-900.ttf);
+    src: url(/Lesson_2/static/fonts/MuseoSansCyrl-900.ttf);
 }
 
 @font-face {
     font-family: MyWebFont;
     font-style: italic;
     font-weight: 900;
-    src: url(/Lesson 2/static/fonts/MuseoSansCyrl-900Italic.ttf);
+    src: url(/Lesson_2/static/fonts/MuseoSansCyrl-900Italic.ttf);
 }
 
 .h1-style{
