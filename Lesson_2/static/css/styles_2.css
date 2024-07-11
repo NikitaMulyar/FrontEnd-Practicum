@@ -101,7 +101,7 @@ nav {
 }
 
 #text-and-pic {
-    height: 25em;
+    min-height: 25em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -198,4 +198,42 @@ ul {
 
 .companies {
     color: #0D4CD3;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (width < 1000px) {
+    #part2 {
+        visibility: hidden;
+    }
+
+    #coins {
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media screen and (width < 450px) {
+    #text-and-pic {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+@media screen and (width < 600px) {
+    #blocks-with-text {
+        flex-direction: column;
+        width: 175%;
+    }
+}
+
+@media screen and (width < 350px) {
+    #for-who-select {
+        visibility: hidden;
+    }
 }
