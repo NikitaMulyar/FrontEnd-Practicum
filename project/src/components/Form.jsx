@@ -40,12 +40,34 @@ const formItemLayout = {
     },
 };
 
+// document.addEventListener('DOMContentLoaded', function () {
+//     const form = document.getElementById('myForm-form');
+//     form.addEventListener('submit', function (event) {
+//         event.preventDefault();
+//         const data = new FormData(form);
+//         for (const [name, value] of data) {
+//             console.log(name, ":", value)
+//         }
+//         alert("Спасибо, Ваша форма обработана!")
+//     });
+// });
+
 const MyForm = () => {
+    const [form] = Form.useForm();
+    console.log(form.getFieldsValue);
     return (
         <div id="myform">
             <h2>Зарегистрироваться на участие в ЛМШ</h2>
             <Form
                 {...formItemLayout}
+                id="myForm-form"
+                action={() => {
+                    const data = new FormData(document.getElementById('myForm-form'));
+                    for (const [name, value] of data) {
+                        console.log(name, ":", value)
+                    }
+                    alert("Спасибо, Ваша форма обработана!")
+                }}
             >
                 <Form.Item
                     label="Введите ФИО ребенка"
@@ -151,7 +173,7 @@ const MyForm = () => {
                         span: 16,
                     }}
                 >
-                    <Button type="primary" htmlType="submit">
+                    <Button type="primary" htmlType="submit" onClick={console.log(123)}>
                         Отправить
                     </Button>
                 </Form.Item>

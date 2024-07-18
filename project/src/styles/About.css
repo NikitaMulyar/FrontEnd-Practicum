@@ -1,0 +1,50 @@
+#main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 180px;
+    color: #e1e1e1;
+}
+
+a:visited {
+    color: #e1e1e1;
+}
+
+a {
+    color: #e1e1e1;
+}
+
+#main > h2 {
+    text-align: center;
+}
+
+#main > p {
+    line-height: 1.4;
+    font-size: 1.1em;
+}
+
+#alert-info {
+    width: 25%;
+    color: #ff9191 !important;
+    background: rgba(0, 48, 205, 0.62) !important;
+    font-size: 1.3em;
+}
+
+ul {
+    border-radius: 10px;
+    background: rgba(0, 1, 168, 0.26);
+    box-shadow: 0px 0px 20px rgb(0, 75, 151);
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #ffd47a;
+}
+
+#img1 {
+    width: 200px;
+}
