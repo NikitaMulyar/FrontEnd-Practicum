@@ -1,0 +1,51 @@
+@font-face {
+    font-family: MyWebFont;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../assets/fonts/MuseoSansCyrl-500.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: italic;
+    font-weight: 500;
+    src: url(../assets/fonts/MuseoSansCyrl-500Italic.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: normal;
+    font-weight: 700;
+    src: url(../assets/fonts/MuseoSansCyrl-700.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: italic;
+    font-weight: 700;
+    src: url(../assets/fonts/MuseoSansCyrl-700Italic.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: normal;
+    font-weight: 900;
+    src: url(../assets/fonts/MuseoSansCyrl-900.ttf);
+}
+
+@font-face {
+    font-family: MyWebFont;
+    font-style: italic;
+    font-weight: 900;
+    src: url(../assets/fonts/MuseoSansCyrl-900Italic.ttf);
+}
+
+body {
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+* {
+    font-family: MyWebFont, serif;
+}
